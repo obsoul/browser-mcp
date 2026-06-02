@@ -1,11 +1,28 @@
 {
-  "name": "browser-mcp",
+  "name": "browser-mcp-agent",
   "version": "0.1.0",
   "description": "Minimal browser control MCP server for LLM agents",
   "type": "module",
   "bin": {
-    "browser-mcp": "./dist/index.js"
+    "browser-mcp": "dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "mcp",
+    "browser",
+    "playwright",
+    "llm",
+    "claude",
+    "automation"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obsoul/browser-mcp.git"
+  },
+  "homepage": "https://github.com/obsoul/browser-mcp#readme",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
