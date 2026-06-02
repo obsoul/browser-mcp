@@ -21,7 +21,7 @@ npx browser-mcp install
 Or manually:
 
 ```bash
-git clone https://github.com/your-username/browser-mcp
+git clone https://github.com/obsoul/browser-mcp
 cd browser-mcp
 npm install
 npx playwright install chromium
